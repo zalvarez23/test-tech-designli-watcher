@@ -94,7 +94,7 @@ self.addEventListener("notificationclick", (event) => {
   console.log("Notificación clickada:", event.notification);
   event.notification.close();
 
-  // Aquí puedes manejar el evento de click, por ejemplo, abrir una URL
+  // Aqu se puede manipular el redireccionamiento al dar click en notificacion.
   event.waitUntil(clients.openWindow("/"));
 });
 

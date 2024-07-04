@@ -8,6 +8,8 @@
 - UIMaterial para componentes.
 - Vite.
 
+- Service worker guarda datos en el IndexedDB
+
 #
 
 # Installation
